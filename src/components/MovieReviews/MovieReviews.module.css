@@ -1,0 +1,70 @@
+.container {
+    padding: 20px 40px;
+}
+
+.title {
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-self: baseline;
+    padding-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.reviewsItem {
+    width: 100%;
+    max-width: 70%;
+    padding: 20px;
+    border: solid 1px black;
+    overflow: hidden;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.userImg {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    color: rgb(213, 169, 255);
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.reviewsText {
+    padding: 0 120px 20px;
+    font-size: 18px;
+}
+
+.details {
+    color: rgb(194, 194, 194);
+    padding: 10px 120px 0;
+    font-size: 14px;
+}
+
+.error {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.loader {
+    height: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 40px;
+}
+
+p {
+    padding: 40px 0;
+    font-size: 36px;
+}
+
+.link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}

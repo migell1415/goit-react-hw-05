@@ -1,0 +1,32 @@
+.list {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+}
+
+.img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

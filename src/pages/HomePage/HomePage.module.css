@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 20px 0;
+}
+
+.title {
+    color: rgb(213, 169, 255);
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.loader {
+    height: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
